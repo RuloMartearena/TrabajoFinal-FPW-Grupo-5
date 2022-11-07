@@ -1,0 +1,41 @@
+[
+    {
+        "instruction":"Las paginas contienen una barra de navegacion"
+    },
+
+    {
+        "instruction":"La distintas paginas se manejan de forma similar"
+    },
+
+    {
+        "instruction":"'Games' contiene todos los juegos"
+    },
+
+    {
+        "instruction":"'Guide' contiene informacion sobre el contenido de las paginas"
+    },
+
+    {
+        "instruction":"'Home' se usa solo para dar la bienvenida"
+    },
+
+    {
+        "instruction":"'Developers' contiene la informacion de los desarrolladores"
+    },
+
+    {
+        "instruction":"'Developers' es la unica pagina que contiene una barra de navegacion diferente"
+    },
+
+    {
+        "instruction":"'Rules' contiene las reglas de todos los juegos"
+    },
+
+    {
+        "instruction":"La barra de navegacion es interactiva"
+    },
+
+    {
+        "instruction":"Todas las paginas contienen animaciones"
+    }
+]
