@@ -1,0 +1,99 @@
+:root {
+  --var-colorBackground: #0c5a23;
+  --var-colorFont: #b4e7f8;
+  --var-colorOne: #152528;
+  --var-colorTwo: #08485e;
+  --var-colorThree: #3cb0cd;
+  --var-colorFour: #7cd5f3;
+  --var-colorFive: #adffbc;
+  --var-colorSix: #1bee9a;
+  --var-colorSeven: #21c063;
+  --var-colorEight: #229631;
+}
+
+/* --- Contenido --- */
+.h2title-game {
+  background-color: var(--var-colorTwo);
+  box-shadow: 10px 10px var(--var-colorOne);
+  text-align: center;
+  margin: 15px 45px 0 45px;
+  font-size: 50px;
+}
+.h3__incognita-conteiner {
+  text-align: center;
+  color: var(--var-colorFive);
+}
+.h3__intentos-conteiner {
+  text-align: center;
+  color: var(--var-colorFont);
+  background-color: var(--var-colorOne);
+  margin: 10px auto;
+  padding: 10px 0;
+  width: 200px;
+  border: 2px solid var(--var-colorThree);
+  border-radius: 5%;
+}
+.mensaje {
+  text-align: center;
+  color: var(--var-colorTwo);
+}
+.opciones {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.opciones button {
+  width: 25px;
+  height: 25px;
+  margin: 0 2px;
+  color: var(--var-colorFont);
+  background-color: var(--var-colorTwo);
+  border: 1px solid var(--var-colorThree);
+  text-align: center;
+  cursor: pointer;
+}
+.botones-page-game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.botones-page-game button {
+  color: var(--var-colorFont);
+  background-color: var(--var-colorOne);
+  font-size: 20px;
+  border: 0;
+  cursor: pointer;
+  margin: 0 20px;
+  border: 2px solid var(--var-colorTwo);
+  border-radius: 5%;
+}
+.botones-page-game button:hover {
+  animation-name: buttonAnimation;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+@keyframes buttonAnimation {
+  100% {
+    background-color: var(--var-colorFour);
+    color: black;
+  }
+}
+/* --- /Contenido --- */
+
+/* --- imagen --- */
+.div__img-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.colgado-image {
+  width: 250px;
+  height: auto;
+  border: 3px solid var(--var-colorTwo);
+  border-radius: 5%;
+}
+/* --- /imagen --- */
