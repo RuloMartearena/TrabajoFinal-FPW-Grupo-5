@@ -1,0 +1,46 @@
+:root {
+  --color-navbar: #232323;
+  --color-font-navbar: #cdcdcd;
+  --color-font-hover-navbar: #00c6a7;
+}
+
+.menu-container {
+  display: flex;
+  align-items: center;
+  background: var(--color-navbar);
+  color: var(--color-font-navbar);
+  width: 100%;
+  padding: 10px 0;
+  margin: 0;
+}
+
+.menu {
+  position: relative;
+  width: 100%;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-container .a-navbar {
+  text-decoration: none;
+  color: var(--color-font-navbar);
+  transition: color 0.3s ease;
+  font-size: 1.2rem;
+}
+
+.menu-container .a-navbar:hover {
+  color: var(--color-font-hover-navbar);
+}
+
+.menu .ul-navbar {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.menu .li-navbar {
+  padding: 0 20px;
+  font-size: 22px;
+}
