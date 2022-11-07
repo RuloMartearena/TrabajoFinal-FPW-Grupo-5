@@ -1,0 +1,163 @@
+:root {
+  --var-colorBackground: #335c67;
+  --var-colorFont: #fff3b0;
+  --var-colorElementOne: #e09f3e;
+  --var-colorElementTwo: #9e2a2b;
+  --var-colorElementThree: #540b0e;
+}
+
+.main__conteiner-game {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 90vw;
+  height: 90vh;
+  color: var(--var-colorFont);
+  font-family: "Crimson Text", serif;
+}
+
+.h2__title {
+  text-align: center;
+  padding: 10px 50px;
+  border: 2px solid var(--var-colorFont);
+  font-size: 50px;
+  background-color: var(--var-colorElementThree);
+}
+
+.section__game {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section__player {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section__player__choice {
+  display: flex;
+}
+.section__player__choice-h3 {
+  margin-top: -4px;
+  margin-right: 4px;
+}
+.div__result-player {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img__result-player {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  display: block;
+}
+
+.section__gameplay {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.gameplay__div-result {
+  font-size: 10px;
+}
+.gameplay__div-choices {
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+.option {
+  margin: 10px auto;
+  font-size: 20px;
+  background-color: var(--var-colorElementTwo);
+  border: var(--var-colorFont) 1px solid;
+  border-radius: 10%;
+  width: 60px;
+  height: auto;
+  text-align: center;
+}
+
+/* Botones */
+.button-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+.buttonHomePpt {
+  background-color: var(--var-colorElementTwo);
+  border: var(--var-colorFont) 1px solid;
+  width: 70px;
+  padding: 5px 0;
+  text-align: center;
+}
+.buttonHomePpt a {
+  font-size: 20px;
+  color: var(--var-colorFont);
+  text-decoration: none;
+}
+.buttonRefreshPpt {
+  background-color: var(--var-colorElementTwo);
+  border: var(--var-colorFont) 1px solid;
+  width: 90px;
+  padding: 5px 0;
+  text-align: center;
+  margin-top: 10px;
+}
+.buttonRefreshPpt a {
+  font-size: 20px;
+  color: var(--var-colorFont);
+  text-decoration: none;
+}
+/* /Botones */
+
+.section__cpu {
+  width: 30%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section__cpu__choice {
+  display: flex;
+}
+.section__cpu__choice-h3 {
+  margin-top: -4px;
+  margin-right: 4px;
+}
+.div__result-cpu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img__result-cpu {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  display: block;
+}
+
+.div__result-empate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.img__result-empate {
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  display: block;
+}
