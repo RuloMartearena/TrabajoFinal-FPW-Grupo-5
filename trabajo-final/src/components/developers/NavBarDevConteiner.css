@@ -1,0 +1,53 @@
+:root {
+  --color-navbar: #232323;
+  --color-font-navbar: #cdcdcd;
+  --color-font-hover-navbar: #00c6a7;
+  --color-wave-one: black;
+  --color-wave-two: white;
+  --color-wave-three: #ff0;
+}
+
+.devconteiner-navbar-conteiner {
+  display: flex;
+  align-items: center;
+  background: var(--color-navbar);
+  color: var(--color-font-navbar);
+  width: 100%;
+  padding: 0 25px 0 0;
+  margin: 0 0 0 -25px;
+}
+
+.devconteiner-navbar-menu {
+  padding: 0 25px 0 0;
+  margin: 0 0 0 25px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.devconteiner-navbar-conteiner a {
+  text-decoration: none;
+  color: var(--color-font-navbar);
+  transition: color 0.3s ease;
+  font-size: 1.5rem;
+}
+
+.devconteiner-navbar-conteiner a:hover {
+  color: var(--color-font-hover-navbar);
+}
+
+.devconteiner-navbar-menu ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.devconteiner-navbar-menu li {
+  margin: 0 200px;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

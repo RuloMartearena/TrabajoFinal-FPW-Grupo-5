@@ -1,0 +1,57 @@
+[
+
+    {
+        "srcImg":"../img/photo_oso.jpg",
+        "lastName": "Beguier",
+        "name":"Beguier Ignacio Martin",
+        "description":"Internet Exporer, por que tarda en captar los chistes.",
+        "group":"El alivio comico del grupo.",
+        "gitHub":"https://github.com/TitiBeguier"
+    }, 
+
+    {
+        "srcImg":"../img/photo_chris.jpg",
+        "lastName": "Gianechini",
+        "name":"Gianechini Christian Emanuel",
+        "description":"El mas puntual de todos, parece que vive en discord.",
+        "group":"El emo del grupo.",
+        "gitHub":"https://github.com/Bastyon"
+    }, 
+
+    {
+        "srcImg":"../img/photo_abuelo.jpg",
+        "lastName": "Gutiérrez",
+        "name":"Gutiérrez Christian Andrés",
+        "description":"El mas grande del grupo, uno pernsaría que tambien el que tiene mas experiencia.",
+        "group":"El abuelo del grupo.",
+        "gitHub":"https://github.com/Bleidersito"
+    }, 
+
+    {
+        "srcImg":"../img/photo_rulo.jpg",
+        "lastName": "Martearena",
+        "name":"Martearena Matías",
+        "description":"El líder del grupo supuestamente, aunque prefiere trabajar solo",
+        "group":"El ruludo del grupo.",
+        "gitHub":"https://github.com/RuloMartearena"
+    }, 
+
+    {
+        "srcImg":"../img/photo_axel.jpg",
+        "lastName": "Robles",
+        "name":"Robles Axel Iván Lautaro",
+        "description":"Le dicen roblox no se por que, el mas copado del grupo.",
+        "group":"El hincha de river del grupo.",
+        "gitHub":"https://github.com/axelrobles17"
+    }, 
+
+    {
+        "srcImg":"../img/photo_esteban.jpg",
+        "lastName": "Vera",
+        "name":"Vera Esteban Sergio",
+        "description":"Le líder del grupo ahora si. Siempre disponible y siempre trabajando.",
+        "group":"La Escaloneta del grupo.",
+        "gitHub":"https://github.com/Akenajy1209"
+    }
+
+]
