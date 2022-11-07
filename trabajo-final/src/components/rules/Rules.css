@@ -1,0 +1,28 @@
+:root {
+  --color-border: #ff0;
+  --color-font: rgba(254, 186, 252, 0.957);
+  --color-rule-hover: rgba(254, 186, 252, 0.648);
+  --color-backgound-card: rgba(0, 0, 0, 0.552);
+}
+
+.article-rules-conteiner {
+  margin: 10px 5px 0 0;
+  padding: 0 3px;
+  height: 84vh;
+  width: 17vw;
+  text-align: center;
+  color: var(--color-font);
+  border: 2px solid var(--color-border);
+  background-color: var(--color-backgound-card);
+}
+
+.rules-conteiner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.rules:hover {
+  color: var(--color-rule-hover);
+}
