@@ -1,0 +1,55 @@
+[
+    {
+        "ruleTitle":"AHORCADITO",
+        "ruleOne":"Intenta descifrar la palabra sin perder la calma",
+        "ruleTwo":"Evita equivocarte para no desmoronarte",
+        "ruleThree":"A medida que aciertes vuelvete mas conciente",
+        "ruleFour":"Trata de no quedar ahorcado para que el juego no de por finalizado",
+        "ruleFive":"Si pierdes no desesperes, reinicia el juego y abre tu mente"
+    }, 
+
+    {
+        "ruleTitle":"P P y T",
+        "ruleOne":"Presta atencion al resultado que al darle click a un boton, el juego a comenzado",
+        "ruleTwo":"Elige sabiamente. ¡PIEDRA, PAPEL, TIJERAS! La maquina te espera",
+        "ruleThree":"Un juego de rol, sin puntos ni temor aunque mejor ganar que caer en desesperacion",
+        "ruleFour":"Podras hacer apuestas, un juego ilimitado, que nada te detenga",
+        "ruleFive":"Ganaste la batalla pero no la guerra, juega a tus anchas para dar una revancha"
+    }, 
+
+    {
+        "ruleTitle":"DUDE",
+        "ruleOne":"Recoge todas las estrellas, una vez que lo hagas una sorpresa te espera",
+        "ruleTwo":"¡Cuidado! Una bomba ha caido no dejes que te toque o enserio estaras perdido",
+        "ruleThree":"No hay ningun requisito y al igual que el universo, este juego es infinito",
+        "ruleFour":"Los controles son sencillos, arriba y a los costados, aunque todo con un objetivo",
+        "ruleFive":"¿Un juego sencillo? Es posible, solo avanza mas y veras lo imposible"
+    },
+
+    {
+        "ruleTitle":"ARKANOID",
+        "ruleOne":"Flechas para moverte, arriba para lanzar, deslizate por el mapa para poder superar",
+        "ruleTwo":"Haz que la bola rebote en los ladrillos, destruye todos, ese es tu objetivo",
+        "ruleThree":"Atrapa a la bola para que no caiga, si no lo haces, el gameover aguarda",
+        "ruleFour":"La bola es muy escurridiza, ten cuidado, es mejor tener prisa",
+        "ruleFive":"Rompe todos los ladrillos y pasa al siguiente objetivo"
+    },
+
+    {
+        "ruleTitle":"KNIGHT JUMP",
+        "ruleOne":"Salta muevete y salta, supera las plataformas, llega a la mas alta",
+        "ruleTwo":"Evita los enemigos, si te tocan estas perdido",
+        "ruleThree":"Obten el premio en los mas alto para dar el juego como finalizado",
+        "ruleFour":"No te vayas a caer, si lo haces tu fin va a ser",
+        "ruleFive":"La gravedad es tu amigo, que puede tornarse en un enemigo"
+    },
+
+    {
+        "ruleTitle":"FLASH REPLY",
+        "ruleOne":"Usa tus conocimientos, que no te gane el tiempo",
+        "ruleTwo":"Elige sabiamente tu respuesta, no te equivoques, las fallas no se aceptan",
+        "ruleThree":"Tres oportunidades para atinar, si no lo haces el juego acabara",
+        "ruleFour":"Preguntas de conocimiento general, nada dificil, ¿verdad?",
+        "ruleFive":"Supera cinco preguntas y la victoria sera tuya"
+    }
+]
