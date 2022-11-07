@@ -1,0 +1,28 @@
+:root {
+  --color-navbar: #232323;
+  --color-font-navbar: #cdcdcd;
+  --color-font-hover-navbar: #00c6a7;
+  --color-wave-one: black;
+  --color-wave-two: white;
+  --color-wave-three: #ff0;
+}
+
+@keyframes rotate {
+  100% {
+    background-position: 5% 95%;
+  }
+}
+
+.developers-conteiner {
+  display: flex;
+  margin: 0 0 0 -30px;
+  padding: 0;
+  height: 88.5vh;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./background.svg");
+  place-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: rotate 20s infinite alternate linear;
+}
