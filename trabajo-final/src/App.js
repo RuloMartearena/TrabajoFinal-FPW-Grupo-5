@@ -1,24 +1,91 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import NavBar from './components/navbar/NavBar';
+import Home from './components/home/Home';
+
+import Developers from './components/developers/Developers.jsx';
+import DevConteiner from './components/developers/DevConteiner.jsx';
+import DevJson from './components/developers/Developers.json';
+
+import Guide from './components/guide/Guide.jsx';
+import GuideConteiner from './components/guide/GuideConteiner.jsx';
+import GuideJson from './components/guide/Guide.json';
+
+import Rules from './components/rules/Rules.jsx';
+import RulesJson from './components/rules/Rules.json';
+import RulesConteiner from './components/rules/RulesConteiner.jsx';
+
+import Games from './components/games/Games.jsx';
+import GamesConteiner from './components/games/GamesConteiner.jsx';
+import GamesJson from './components/games/Games.json';
+
+import Ahorcadito from './ahorcadito/components/Juego';
+import Ppt from './ppt/components/Juego';
+import Dude from './dude/Dude';
+import Arkanoid from './arkanoid/Game';
 
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element=
+            {<Home>
+              <NavBar />
+            </Home>
+            } />
+          <Route path="/Developers" element=
+            {<DevConteiner>
+              {DevJson.map(dev =>
+                <Developers
+                  lastName={dev.lastName}
+                  srcImg={dev.srcImg}
+                  name={dev.name}
+                  description={dev.description}
+                  group={dev.group}
+                  gitHub={dev.gitHub}
+                />
+              )}
+            </DevConteiner>}
+          />
+          <Route path="/Guide" element=
+            {<GuideConteiner>
+              {GuideJson.map(guide =>
+                <Guide
+                  instruction={guide.instruction}
+                />)}
+            </GuideConteiner>
+            }
+          />
+          <Route path="/Rules" element=
+            {<RulesConteiner>
+              {RulesJson.map(rule =>
+                <Rules
+                  ruleTitle={rule.ruleTitle}
+                  ruleOne={rule.ruleOne}
+                  ruleTwo={rule.ruleTwo}
+                  ruleThree={rule.ruleThree}
+                  ruleFour={rule.ruleFour}
+                  ruleFive={rule.ruleFive}
+                />)}
+            </RulesConteiner>}
+          />
+          <Route path="/Games" element=
+            {<GamesConteiner>
+              {GamesJson.map(game =>
+                <Games
+                  gameHref={game.gameHref}
+                  gameImg={game.gameImg}
+                />)}
+            </GamesConteiner>}
+          />
+          <Route path="/Ahorcadito" element={<Ahorcadito />} />
+          <Route path="/PPyT" element={<Ppt />} />
+          <Route path="/Dude" element={<Dude />} />
+          <Route path="/Arkanoid" element={<Arkanoid />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
-
-export default App;
