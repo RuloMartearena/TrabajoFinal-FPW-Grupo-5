@@ -1,0 +1,11 @@
+.gamesConteiner-conteiner {
+  width: 98vw;
+  height: 98vh;
+  margin: 0 0 0 -10px;
+  padding: 0;
+}
+
+.gamesConteiner-games {
+  display: flex;
+  margin: 0 -5px 0 0;
+}
