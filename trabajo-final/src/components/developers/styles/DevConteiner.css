@@ -20,7 +20,7 @@
   height: 88.5vh;
   justify-content: center;
   align-items: center;
-  background-image: url("./background.svg");
+  background-image: url("../background/background.svg");
   place-items: center;
   background-repeat: no-repeat;
   background-size: cover;

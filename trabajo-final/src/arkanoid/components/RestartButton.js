@@ -6,7 +6,7 @@ class RestartButton {
 
     preload() {
 
-        this.relatedScene.load.image('restart', '../img/restart.png');
+        this.relatedScene.load.image('restart', 'img/arkanoid/restart.png');
     }
 
     create() {

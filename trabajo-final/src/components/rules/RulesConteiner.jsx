@@ -1,6 +1,6 @@
-import './Rules.css';
-import './RulesConteiner.css';
-import '../navbar/NavBar.css';
+import './styles/Rules.css';
+import './styles/RulesConteiner.css';
+import '../navbar/styles/NavBar.css';
 
 const RulesConteiner = (props) => {
     return (

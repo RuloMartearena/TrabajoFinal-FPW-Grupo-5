@@ -1,6 +1,6 @@
-import './GamesConteiner.css';
-import './Games.css';
-import '../navbar/NavBar.css';
+import './styles/GamesConteiner.css';
+import './styles/Games.css';
+import '../navbar/styles/NavBar.css';
 
 const GamesConteiner = (props) => {
     return (

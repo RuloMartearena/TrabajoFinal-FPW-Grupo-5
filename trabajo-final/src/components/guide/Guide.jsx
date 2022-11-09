@@ -1,4 +1,4 @@
-import './Guide.css';
+import './styles/Guide.css';
 
 const Guide = (props) => {
     return (

@@ -1,7 +1,7 @@
 [
 
     {
-        "srcImg":"../img/photo_oso.jpg",
+        "srcImg":"img/developers/photo_oso.jpg",
         "lastName": "Beguier",
         "name":"Beguier Ignacio Martin",
         "description":"Internet Exporer, por que tarda en captar los chistes.",
@@ -10,7 +10,7 @@
     }, 
 
     {
-        "srcImg":"../img/photo_chris.jpg",
+        "srcImg":"img/developers/photo_chris.jpg",
         "lastName": "Gianechini",
         "name":"Gianechini Christian Emanuel",
         "description":"El mas puntual de todos, parece que vive en discord.",
@@ -19,7 +19,7 @@
     }, 
 
     {
-        "srcImg":"../img/photo_abuelo.jpg",
+        "srcImg":"img/developers/photo_abuelo.jpg",
         "lastName": "Gutiérrez",
         "name":"Gutiérrez Christian Andrés",
         "description":"El mas grande del grupo, uno pernsaría que tambien el que tiene mas experiencia.",
@@ -28,7 +28,7 @@
     }, 
 
     {
-        "srcImg":"../img/photo_rulo.jpg",
+        "srcImg":"img/developers/photo_rulo.jpg",
         "lastName": "Martearena",
         "name":"Martearena Matías",
         "description":"El líder del grupo supuestamente, aunque prefiere trabajar solo",
@@ -37,7 +37,7 @@
     }, 
 
     {
-        "srcImg":"../img/photo_axel.jpg",
+        "srcImg":"img/developers/photo_axel.jpg",
         "lastName": "Robles",
         "name":"Robles Axel Iván Lautaro",
         "description":"Le dicen roblox no se por que, el mas copado del grupo.",
@@ -46,7 +46,7 @@
     }, 
 
     {
-        "srcImg":"../img/photo_esteban.jpg",
+        "srcImg":"img/developers/photo_esteban.jpg",
         "lastName": "Vera",
         "name":"Vera Esteban Sergio",
         "description":"Le líder del grupo ahora si. Siempre disponible y siempre trabajando.",

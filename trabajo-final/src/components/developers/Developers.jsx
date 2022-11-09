@@ -1,4 +1,4 @@
-import './Developers.css';
+import './styles/Developers.css';
 
 export default function Developers(props) {
     return (

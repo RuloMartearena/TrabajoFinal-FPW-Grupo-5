@@ -1,6 +1,6 @@
-import './DevConteiner.css';
-import './LogoDevConteiner.css';
-import './NavBarDevConteiner.css';
+import './styles/DevConteiner.css';
+import './styles/LogoDevConteiner.css';
+import './styles/NavBarDevConteiner.css';
 
 const DevConteiner = (props) => {
     return (

@@ -1,0 +1,31 @@
+[
+    {
+        "gameImg":"img/games/ahorcadito.png",
+        "gameHref":"/Ahorcadito"
+    },
+
+    {
+        "gameImg":"img/games/ppt.png",
+        "gameHref":"/PPyT"
+    },
+
+    {
+        "gameImg":"img/games/dude.png",
+        "gameHref":"/Dude"
+    },
+
+    {
+        "gameImg":"img/games/arkanoid.png",
+        "gameHref":"/Arkanoid"
+    },
+
+    {
+        "gameImg":"img/games/knightJump.png",
+        "gameHref":"/"
+    },
+
+    {
+        "gameImg":"img/games/flashReply.png",
+        "gameHref":"/"
+    }
+]

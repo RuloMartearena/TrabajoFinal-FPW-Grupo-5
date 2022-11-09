@@ -10,11 +10,11 @@ class Escena extends Phaser.Scene {
     bomb = null;
 
     preload() {
-        this.load.image('sky', 'img/sky.png');
-        this.load.image('ground', 'img/platform.png');
-        this.load.image('star', 'img/star.png');
-        this.load.image('bomb', 'img/bomb.png');
-        this.load.spritesheet('dude', 'img/player.png',
+        this.load.image('sky', 'img/dude/sky.png');
+        this.load.image('ground', 'img/dude/platform.png');
+        this.load.image('star', 'img/dude/star.png');
+        this.load.image('bomb', 'img/dude/bomb.png');
+        this.load.spritesheet('dude', 'img/dude/player.png',
             { frameWidth: 32, frameHeight: 48 });
     }
 

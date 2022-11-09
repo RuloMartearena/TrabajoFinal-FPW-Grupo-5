@@ -1,5 +1,5 @@
-import './Guide.css';
-import '../navbar/NavBar.css';
+import './styles/Guide.css';
+import '../navbar/styles/NavBar.css';
 
 const GuideConteiner = (props) => {
     return (

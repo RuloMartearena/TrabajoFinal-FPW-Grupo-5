@@ -5,19 +5,19 @@ import Home from './components/home/Home';
 
 import Developers from './components/developers/Developers.jsx';
 import DevConteiner from './components/developers/DevConteiner.jsx';
-import DevJson from './components/developers/Developers.json';
+import DevJson from './components/developers/json/Developers.json';
 
 import Guide from './components/guide/Guide.jsx';
 import GuideConteiner from './components/guide/GuideConteiner.jsx';
-import GuideJson from './components/guide/Guide.json';
+import GuideJson from './components/guide/json/Guide.json';
 
 import Rules from './components/rules/Rules.jsx';
-import RulesJson from './components/rules/Rules.json';
+import RulesJson from './components/rules/json/Rules.json';
 import RulesConteiner from './components/rules/RulesConteiner.jsx';
 
 import Games from './components/games/Games.jsx';
 import GamesConteiner from './components/games/GamesConteiner.jsx';
-import GamesJson from './components/games/Games.json';
+import GamesJson from './components/games/json/Games.json';
 
 import Ahorcadito from './ahorcadito/components/Juego';
 import Ppt from './ppt/components/Juego';
