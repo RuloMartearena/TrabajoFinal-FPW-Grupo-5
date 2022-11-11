@@ -5,8 +5,10 @@ class GameOver extends Phaser.Scene {
 
     // Se usará como palabra clave para usar la escena
     constructor() {
+
         super({ key: 'gameover' });
         this.restartButton = new RestartButton(this);
+
     }
 
     preload() {

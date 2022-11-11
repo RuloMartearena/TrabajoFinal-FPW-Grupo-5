@@ -22,8 +22,7 @@ import GamesJson from './components/games/json/Games.json';
 import Ahorcadito from './ahorcadito/components/Juego';
 import Ppt from './ppt/components/Juego';
 import Dude from './dude/Dude';
-import Arkanoid from './arkanoid/Game';
-
+import Arkanoid from './arkanoid/Juego';
 
 export default function App() {
   return (
