@@ -1,6 +1,6 @@
 export const listaEntretenimientoQuiz = [
   {
-    textoPregunta: "¿quien fue el protagonista de las primeras temporadas de The Walking Dead?",
+    textoPregunta: "¿Quien fue el protagonista de las primeras temporadas de The Walking Dead?",
     opcionesRespuesta: [
       { textoOpcion: "Rick Sanchez", isCorrect: false },
       { textoOpcion: "Carl Grimes", isCorrect: false },
@@ -18,7 +18,7 @@ export const listaEntretenimientoQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Cómo se llama el protagonista de la saga de videojuegos “La Leyenda de Zelda” ?",
+    textoPregunta: "¿Como se llama el protagonista de la saga de videojuegos 'La Leyenda de Zelda'?",
     opcionesRespuesta: [
       { textoOpcion: "Zelda", isCorrect: false },
       { textoOpcion: "Ganondorf", isCorrect: false },
@@ -27,7 +27,7 @@ export const listaEntretenimientoQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Cómo se llama el líder de los Autobots en la saga de películas de “Transformers?",
+    textoPregunta: "¿Como se llama el lider de los Autobots en la saga de peliculas de 'Transformers'?",
     opcionesRespuesta: [
       { textoOpcion: "Optimus Prime", isCorrect: true },
       { textoOpcion: "Bumblebee Prime", isCorrect: false },
@@ -36,16 +36,16 @@ export const listaEntretenimientoQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Cuánto duró la Guerra de los Cien Años? ",
+    textoPregunta: "¿Cuanto duro la Guerra Centenaria?",
     opcionesRespuesta: [
-      { textoOpcion: "109 años", isCorrect: false },
-      { textoOpcion: "126 años", isCorrect: false },
-      { textoOpcion: "116 años", isCorrect: true },
-      { textoOpcion: "106 años", isCorrect: false},
+      { textoOpcion: "109", isCorrect: false },
+      { textoOpcion: "126", isCorrect: false },
+      { textoOpcion: "116", isCorrect: true },
+      { textoOpcion: "106", isCorrect: false },
     ],
   },
   {
-    textoPregunta: "¿Como se llama personaje principal de GTA  San Andreas?",
+    textoPregunta: "¿Como se llama personaje principal de GTA San Andreas?",
     opcionesRespuesta: [
       { textoOpcion: "Kevin", isCorrect: false },
       { textoOpcion: "Raider", isCorrect: false },
@@ -54,7 +54,7 @@ export const listaEntretenimientoQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Cualm fue la primera regunta de Disney?",
+    textoPregunta: "¿Cual fue la primera pelicula de Disney?",
     opcionesRespuesta: [
       { textoOpcion: "La cirenita", isCorrect: false },
       { textoOpcion: "EL rey leon", isCorrect: false },
@@ -72,21 +72,21 @@ export const listaEntretenimientoQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Jack Sparrow es el protagonista de Cual saga de peliculas?",
+    textoPregunta: "¿Jack Sparrow es el protagonista de cual saga de peliculas?",
     opcionesRespuesta: [
       { textoOpcion: "Piratas del Caribe", isCorrect: true },
-      { textoOpcion: "Charlie y la fabrica d4e Chocolate", isCorrect: false },
+      { textoOpcion: "Charlie y la fabrica de Chocolate", isCorrect: false },
       { textoOpcion: "Animales fantasticos", isCorrect: false },
       { textoOpcion: "Pesadilla en la calle Elm", isCorrect: false },
     ],
   },
   {
-    textoPregunta: "¿Como se llama el nombre del protagonista de Cars?",
+    textoPregunta: "¿Como se llama el protagonista de Cars?",
     opcionesRespuesta: [
       { textoOpcion: "Doc Hudson", isCorrect: false },
-      { textoOpcion: "MC Queen", isCorrect: false },
+      { textoOpcion: "MC Queen", isCorrect: true },
       { textoOpcion: "To Mate", isCorrect: false },
-      { textoOpcion: "Sally", isCorrect: true },
+      { textoOpcion: "Sally", isCorrect: false },
     ],
   },
 ];

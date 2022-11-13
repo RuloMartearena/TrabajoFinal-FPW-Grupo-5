@@ -23,6 +23,7 @@ import Ahorcadito from './ahorcadito/components/Juego';
 import Ppt from './ppt/components/Juego';
 import Dude from './dude/Dude';
 import Arkanoid from './arkanoid/Juego';
+import FlashReply from './flashReply/FlashReply';
 
 export default function App() {
   return (
@@ -83,6 +84,7 @@ export default function App() {
           <Route path="/PPyT" element={<Ppt />} />
           <Route path="/Dude" element={<Dude />} />
           <Route path="/Arkanoid" element={<Arkanoid />} />
+          <Route path="/FlashReply" element={<FlashReply />} />
         </Routes>
       </BrowserRouter>
     </>

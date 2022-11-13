@@ -88,29 +88,32 @@ export default function FlashReply() {
 
   return (
     <>
-      <div className="genero-conteiner">
-        <h2 className="genero">Genero: </h2>{genero}
-      </div>
-      <div className="app-conteiner">
-        <button className="buttonGame" disabled={pushButton === false} onClick={() => generoAzar()}> Lanzar pregunta </button>
-        {mostrarPuntos ? (<section className="showScore-section"> Tú respondiste {puntaje} de {10/**generoQuiz.length*/} preguntas </section>) :
-          (<div className="app">
-            {pushButton ? (<h3 className="h3-bienvenida">Habras respondido Bien??? Elige el genero de la siguiente pregunta </h3>) :
-              (<>
-                <section className="question-section">
-                  <h2 className="pregunta"> Pregunta {preguntaActual + 1} de {10/*generoQuiz.length*/} </h2>
-                  <p className="opciones"> {generoQuiz[randomQuiz/*preguntaActual*/].textoPregunta} </p>
-                </section>
+      <section className="game-conteiner">
+        <div className="genero-conteiner">
+          <h2 className="genero">Genero: </h2><h2 className="genero">{genero}</h2>
+        </div>
+        <div className="app-conteiner">
+          <button className="buttonGame" disabled={pushButton === false} onClick={() => generoAzar()}>Siguiente pregunta</button>
+          {mostrarPuntos ? (<section className="showScore-section"> Tu respondiste {puntaje} de {10/**generoQuiz.length*/} preguntas </section>) :
+            (<div className="app">
+              {pushButton ? (<h3 className="h3-bienvenida">¿Habras respondido bien? Pasa a la siguiente pregunta</h3>) :
+                (<>
+                  <section className="question-section">
+                    <h2 className="pregunta"> Pregunta {preguntaActual + 1} de {10/*generoQuiz.length*/} </h2>
+                    <p className="opciones"> {generoQuiz[randomQuiz/*preguntaActual*/].textoPregunta} </p>
+                  </section>
 
-                <section className="answer-section">
-                  {generoQuiz[randomQuiz/*preguntaActual*/].opcionesRespuesta.map((item) => (
-                    <button className="buttonGame" disabled={pushButton === true} onClick={() => opcionElegida(item.isCorrect)}> -O- {item.textoOpcion} </button>))}
-                </section>
-              </>)
-            }
-          </div>)
-        }
-      </div>
+                  <section className="answer-section">
+                    {generoQuiz[randomQuiz/*preguntaActual*/].opcionesRespuesta.map((item) => (
+                      <button className="buttonGame" disabled={pushButton === true} onClick={() => opcionElegida(item.isCorrect)}> {item.textoOpcion} </button>))}
+                  </section>
+                </>)
+              }
+            </div>)
+          }
+        </div>
+        <a href="/"><button className="buttonHome">Home</button></a>
+      </section>
     </>
   );
 }

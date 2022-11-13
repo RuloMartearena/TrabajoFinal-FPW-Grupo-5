@@ -1,5 +1,16 @@
+:root {
+  --color-font: #ff0;
+  --color-font-dos: rgba(255, 255, 0, 0.787);
+  --color-font-tres: #fff;
+}
+
+.genero-conteiner {
+  margin-bottom: -40px;
+}
+
 .genero {
   display: inline;
+  color: var(--color-font);
 }
 
 .app-conteiner {
@@ -72,4 +83,19 @@
     width: 100%;
     min-width: 60px;
   }
+}
+
+.buttonHome {
+  position: relative;
+  width: 100px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #2b3868;
+  border-radius: 3px;
+  padding: 5px;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  margin-top: 100px;
 }

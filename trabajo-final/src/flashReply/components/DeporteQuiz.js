@@ -2,10 +2,10 @@ export const listaDeporteQuiz = [
   {
     textoPregunta: "¿Quien es el goat del Futbol?",
     opcionesRespuesta: [
-      { textoOpcion: "El goat es Messi obvio", isCorrect: true },
-      { textoOpcion: "Penaldo 7-7", isCorrect: false },
-      { textoOpcion: "Neymar el Teatrero", isCorrect: false },
-      { textoOpcion: "Mbappe el come trava", isCorrect: false },
+      { textoOpcion: "Messi messirve", isCorrect: true },
+      { textoOpcion: "Penaldo el pelado", isCorrect: false },
+      { textoOpcion: "Neymar el teatro", isCorrect: false },
+      { textoOpcion: "Mbappe la tortuga", isCorrect: false },
     ],
   },
   {
@@ -45,7 +45,7 @@ export const listaDeporteQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Cuanto dura un partido de FootBall?",
+    textoPregunta: "¿Cuanto dura un partido de football?",
     opcionesRespuesta: [
       { textoOpcion: "80", isCorrect: false },
       { textoOpcion: "90", isCorrect: true },
@@ -54,7 +54,7 @@ export const listaDeporteQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Las Leonas es el nombre de un equipo de que Deporte?",
+    textoPregunta: "¿Las Leonas es el nombre de un equipo de que deporte?",
     opcionesRespuesta: [
       { textoOpcion: "Hockey", isCorrect: true },
       { textoOpcion: "Rugby", isCorrect: false },
@@ -63,7 +63,7 @@ export const listaDeporteQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Como se llama el mejor jugador de Basquet Argentino?",
+    textoPregunta: "¿Como se llama el mejor jugador de basquet Argentino?",
     opcionesRespuesta: [
       { textoOpcion: "Ginobili", isCorrect: true },
       { textoOpcion: "Campazzo", isCorrect: false },
@@ -72,7 +72,7 @@ export const listaDeporteQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Cuantas copas del Mundo gano Argentina?",
+    textoPregunta: "¿Cuantas copas del mundo gano Argentina?",
     opcionesRespuesta: [
       { textoOpcion: "1", isCorrect: false },
       { textoOpcion: "0", isCorrect: false },
@@ -81,7 +81,7 @@ export const listaDeporteQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Cual de estos Paises NO clasifico al mundial 2022?",
+    textoPregunta: "¿Cual de estos paises NO clasifico al mundial 2022?",
     opcionesRespuesta: [
       { textoOpcion: "Argentina", isCorrect: false },
       { textoOpcion: "Chile", isCorrect: true },

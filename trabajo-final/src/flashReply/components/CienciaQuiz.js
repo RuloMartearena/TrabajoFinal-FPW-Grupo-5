@@ -36,7 +36,7 @@ export const listaCienciaQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Cual es el animal maritimo Mas grande?",
+    textoPregunta: "¿Cual es el animal maritimo mas grande?",
     opcionesRespuesta: [
       { textoOpcion: "Manteca de Mar", isCorrect: false },
       { textoOpcion: "La ballena", isCorrect: true },
@@ -47,14 +47,14 @@ export const listaCienciaQuiz = [
   {
     textoPregunta: "¿Cual es la composicion quimica del Agua?",
     opcionesRespuesta: [
-      { textoOpcion: "H2o", isCorrect: true },
+      { textoOpcion: "H2O", isCorrect: true },
       { textoOpcion: "O2", isCorrect: false },
       { textoOpcion: "SO2", isCorrect: false },
       { textoOpcion: "NH2O", isCorrect: false },
     ],
   },
   {
-    textoPregunta: "¿Cual es el primer Elemento de la Tabla Periodica?",
+    textoPregunta: "¿Cual es el primer elemento de la tabla periodica?",
     opcionesRespuesta: [
       { textoOpcion: "Oro", isCorrect: false },
       { textoOpcion: "Hidrogeno", isCorrect: true },
@@ -81,12 +81,12 @@ export const listaCienciaQuiz = [
     ],
   },
   {
-    textoPregunta: "¿Cual es la edad del universo?",
+    textoPregunta: "¿Cual es la edad aproximada del universo?",
     opcionesRespuesta: [
-      { textoOpcion: "Nueve Mil Millones de años Aprox", isCorrect: false },
-      { textoOpcion: "Once Mil Millones de años Aprox", isCorrect: false },
-      { textoOpcion: "Trecer Mil Millones de años Aprox", isCorrect: true },
-      { textoOpcion: "Diez Mil Millones de años Aprox", isCorrect: false },
+      { textoOpcion: "Nueve Mil Millones", isCorrect: false },
+      { textoOpcion: "Once Mil Millones", isCorrect: false },
+      { textoOpcion: "Trecer Mil Millones", isCorrect: true },
+      { textoOpcion: "Diez Mil Millones", isCorrect: false },
     ],
   },
 ];
