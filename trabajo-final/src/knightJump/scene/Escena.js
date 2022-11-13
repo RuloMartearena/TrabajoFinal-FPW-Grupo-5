@@ -20,6 +20,10 @@ class Escena extends Phaser.Scene {
     posRandom = 1;
     star = null;
     score = 0;
+    corte = null;
+    gameOver = null;
+    jump = null;
+    coins = null;
 
     init() {
         this.score = 0;
@@ -37,22 +41,22 @@ class Escena extends Phaser.Scene {
             'img/knightJump/dude.png',
             { frameWidth: 32, frameHeight: 48 });
 
-        this.load.audio('corte', 'sounds/knightJump/corte.wav')
-        this.load.audio('gameOver', 'sounds/knightJump/gameOver.wav')
-        this.load.audio('jump', 'sounds/knightJump/jump.wav')
-        this.load.audio('coins', 'sounds/knightJump/coins.wav')
+        this.load.audio('corte', 'sonidos/knightJump/corte.mp3');
+        this.load.audio('gameOver', 'sonidos/knightJump/gameOver.mp3');
+        this.load.audio('jump', 'sonidos/knightJump/jump.mp3');
+        this.load.audio('coins', 'sonidos/knightJump/coins.mp3');
     }
 
     create() {
+
+        // creando el fondo
+        this.add.image(635, 50, 'sky').setScale(1, 1.2);
 
         // agregando sonidos
         this.corte = this.sound.add("corte");
         this.gameOver = this.sound.add("gameOver");
         this.jump = this.sound.add("jump");
         this.coins = this.sound.add("coins");
-
-        // creando el fondo
-        this.add.image(635, 50, 'sky').setScale(1, 1.2);
 
         ///PLAYER
         this.player = this.physics.add.sprite(600, 250, 'dude');

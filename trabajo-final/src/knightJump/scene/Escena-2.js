@@ -25,10 +25,10 @@ class Escena extends Phaser.Scene {
             'img/knightJump/dude.png',
             { frameWidth: 32, frameHeight: 48 });
 
-        this.load.audio('corte', 'sounds/knightJump/corte.wav')
-        this.load.audio('gameOver', 'sounds/knightJump/gameOver.wav')
-        this.load.audio('jump', 'sounds/knightJump/jump.wav')
-        this.load.audio('coins', 'sounds/knightJump/coins.wav')
+        this.load.audio('corte', 'sonidos/knightJump/corte.mp3')
+        this.load.audio('gameOver', 'sonidos/knightJump/gameOver.mp3')
+        this.load.audio('jump', 'sonidos/knightJump/jump.mp3')
+        this.load.audio('coins', 'sonidos/knightJump/coins.mp3')
     }
 
     create() {
